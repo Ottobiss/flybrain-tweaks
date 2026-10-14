@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "flybrain-tweaks",
+	"version": "${version}",
+	"name": "FlyBrain Tweaks",
+	"description": "Small server-side Vanilla+ tweaks for the FlyBrain server. Sneak + right-click an item frame with shears to make it invisible.",
+	"authors": [
+		"Otto"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/flybrain-tweaks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"otto.flybrain.tweaks.FlyBrainTweaks"
+		]
+	},
+	"mixins": [
+		"flybrain-tweaks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

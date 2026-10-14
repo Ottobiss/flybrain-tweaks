@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "otto.flybrain.tweaks.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"ItemFrameMixin",
+		"ItemFrameAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
